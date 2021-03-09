@@ -1,0 +1,42 @@
+/* début règles générales */
+.container
+{
+  display: flex;
+}
+.green
+{
+  display: flex;
+  flex-direction: row;
+}
+.square
+{
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border: solid;
+  border-width: 1px;
+}
+  .rectangle
+{
+width: 180px;
+height: 50px;
+background-color: yellow;
+}
+/*fin règles générales*/
+/* début règles media querries*/
+/* début règles média querries au dessus de 980px*/
+@media all and (max-width: 980px)
+{
+    .container
+    {
+      display: flex;
+flex-direction: column;
+    }
+    .green
+    {
+      width: 180px;
+      justify-content: space-between;
+    }
+}
+/* fin règles média querries au dessus de 980px*/
+/*fin règles média guerries*/
